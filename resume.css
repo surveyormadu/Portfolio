@@ -1,0 +1,601 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Libre Baskerville", serif;
+	font-weight: 400px;
+	font-size: 12px;
+	line-height: 20px;
+	background-color: gray;
+}
+
+h1 {
+	/* font-family: "Libre Baskerville", serif; */
+	font-family: "Aref Ruqaa", serif;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+h3 {
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+h4 + h4 {
+	margin-top: 0;
+}
+
+ul {
+	margin-left: 60px;
+	margin-bottom: 15px;
+	width: 78%;
+}
+
+hr {
+	/* height: 1px; */
+	margin-left: 40px;
+	width: 90%;
+	background: gray;
+	border-color: gray;
+}
+
+img {
+	margin-left: 40px;
+}
+
+h3 + p {
+	margin-left: 40px;
+}
+
+section.container1,
+section.container2 {
+	width: 71%;
+	display: flex;
+	margin: auto;
+	background-color: white;
+}
+
+section.container1,
+section.container2 {
+	margin-top: 6px;
+}
+
+section.container2 {
+	margin-bottom: 6px;
+}
+
+section.left1,
+section.left2 {
+	background: rgb(10, 10, 10);
+	color: WHITE;
+	font-size: 10px;
+	width: 28%;
+}
+
+/* section.left2 {
+	background: rgb(10, 10, 10);
+	color: WHITE;
+	font-size: 10px;
+	width: 28%;
+} */
+
+section.right1,
+section.right2 {
+	width: 85%;
+}
+
+section.right2 {
+	margin-left: 3px;
+}
+
+/* div.img {
+	margin: 10px 43px 0 0;
+} */
+
+div.head {
+	margin-top: 55px;
+	margin-bottom: 25px;
+}
+
+div.profile {
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+
+.image {
+	margin-top: 10px;
+	margin-right: 39px;
+}
+/* SECOND PAGE */
+hr + h4 {
+	margin-top: 10px;
+}
+div.education {
+	margin-bottom: 10px;
+}
+
+div.tertiary {
+	margin-top: 10px;
+}
+
+div.head > p {
+	margin-left: 40px;
+}
+
+div.sec {
+	margin-top: 20px;
+}
+
+div.volunteer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.achivement p {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+div.referee p {
+	margin-left: 40px;
+	margin-top: 15px;
+	margin-bottom: 80px;
+}
+
+div.skill2 {
+	width: 600px;
+}
+
+div.sec p {
+	margin-bottom: 30px;
+}
+
+p + h3 {
+	margin-top: 20px;
+}
+
+.ul {
+	display: flex;
+	flex-flow: row wrap;
+	width: auto;
+}
+
+.ul li {
+	list-style: none;
+	width: 110px;
+	margin: 0 30px 10px 30px;
+}
+
+.ul:nth-child(1) {
+	margin-left: 10px;
+}
+
+.ul2 {
+	display: flex;
+	flex-flow: row wrap;
+	width: auto;
+}
+
+.ul2 li {
+	list-style: none;
+	width: 150px;
+	margin: 0 10px 13px 10px;
+}
+
+.ul2:nth-child(1) {
+	margin-left: 30px;
+}
+
+.about {
+	margin: 10px 0 30px 40px;
+	width: 80%;
+}
+
+.top {
+	margin-top: 60px;
+}
+
+.uni {
+	color: rgb(196, 169, 21);
+	font-size: 20px;
+}
+
+.inner {
+	color: gray;
+}
+
+/* LEFT SIDE FIRST PAGE*/
+
+div.p {
+	margin-top: 15px;
+	text-align: right;
+}
+
+div.wx {
+	margin-top: 70px;
+	text-align: right;
+}
+
+h2 {
+	color: rgb(196, 169, 21);
+}
+
+.p > h2 {
+	margin-top: 5px;
+	margin-right: 50px;
+}
+
+.wx > h2 {
+	width: 150px;
+	margin-top: 5px;
+	margin-left: 35px;
+}
+
+.lh {
+	margin-left: 20px;
+	width: 160px;
+	background: rgb(196, 169, 21);
+	border-color: rgb(196, 169, 21);
+}
+
+/* LEFT SIDE SECOND PAGE*/
+div.edu {
+	margin-top: 59px;
+	text-align: right;
+}
+
+div.sk {
+	margin-top: 147px;
+	text-align: right;
+}
+
+div.vul {
+	margin-top: 405px;
+	text-align: right;
+}
+
+div.ach {
+	margin-top: 120px;
+	text-align: right;
+}
+
+div.ref {
+	margin-top: 37px;
+	text-align: right;
+}
+
+.vul > h2,
+.ref > h2,
+.ach > h2,
+.sk > h2,
+.edu > h2 {
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 480px) {
+	/* FIRST PAGE RIGHT */
+
+	body {
+		font-size: 10px;
+	}
+
+	section.container1,
+	section.container2 {
+		width: 110%;
+		display: flex;
+		margin: auto;
+		background-color: white;
+	}
+
+	section.container1 {
+		margin: 10px 0px 0px 8px;
+	}
+
+	section.container2 {
+		margin: 10px 0px 13px 8px;
+	}
+
+	img {
+		margin-left: 0;
+	}
+
+	p {
+		margin-left: 40px;
+	}
+
+	hr {
+		width: 85%;
+	}
+
+	h3 {
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		font-size: 10px;
+	}
+
+	.about {
+		width: 87%;
+	}
+
+	.image {
+		width: 110px;
+		height: 110px;
+		margin-left: 19px;
+		margin-top: 30px;
+	}
+
+	/* FIRST PAGE LEFT */
+
+	div.p {
+		margin-top: 30px;
+	}
+
+	.p > h2 {
+		margin-right: 22px;
+	}
+
+	div.wx {
+		margin-top: 95px;
+	}
+
+	.wx > h2 {
+		margin-left: 12px;
+		width: 115px;
+	}
+
+	/* SECOND PAGE RIGHT */
+
+	div.skill2 {
+		width: 400px;
+	}
+
+	div.achivement p {
+		width: 87%;
+	}
+
+	.skill1 p {
+		margin-left: 0;
+	}
+
+	.skill2 p {
+		margin-left: 0;
+	}
+
+	/* SECOND PAGE LEFT */
+	.edu > h2 {
+		margin-left: 52px;
+	}
+
+	div.edu {
+		margin-top: 59px;
+	}
+
+	div.sk {
+		margin-top: 148px;
+	}
+
+	.sk > h2 {
+		margin-left: 85px;
+	}
+
+	.lh {
+		width: 70%;
+	}
+
+	div.vul {
+		margin-top: 558px;
+	}
+
+	.vul > h2 {
+		margin-left: 28px;
+	}
+
+	div.ref {
+		margin-top: 60px;
+	}
+
+	.ref > h2 {
+		margin-left: 65px;
+	}
+
+	.ach > h2 {
+		margin-left: 35px;
+	}
+
+	/* SECOND PAGE RIGHT HR */
+	.education,
+	.sec > hr {
+		width: 90%;
+	}
+
+	.volunteer > hr {
+		width: 80%;
+	}
+
+	.achivement > hr {
+		width: 80%;
+	}
+
+	.top {
+		width: 91.2%;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+
+	section.container1,
+	section.container2 {
+		width: 94%;
+		display: flex;
+		margin: auto;
+		background-color: white;
+	}
+
+	section.container1 {
+		margin: 10px 0px 0px 20px;
+	}
+
+	section.container2 {
+		margin: 10px 0px 13px 20px;
+	}
+
+	img {
+		margin-left: 0;
+	}
+
+	p {
+		margin-left: 40px;
+	}
+
+	hr {
+		width: 85%;
+	}
+
+	h3 {
+		margin-bottom: 10px;
+	}
+
+	h4 {
+		margin-top: 10px;
+	}
+
+	.about {
+		width: 87%;
+	}
+
+	.image {
+		width: 140px;
+		height: 140px;
+		margin-left: 28px;
+		margin-top: 20px;
+	}
+
+	/* FIRST PAGE LEFT */
+
+	div.p {
+		margin-top: 12px;
+	}
+
+	.p > h2 {
+		margin-right: 37px;
+	}
+
+	div.wx {
+		margin-top: 95px;
+	}
+
+	.wx > h2 {
+		margin-left: 50px;
+		width: 115px;
+	}
+
+	/* SECOND PAGE RIGHT */
+
+	div.skill2 {
+		width: 400px;
+	}
+
+	div.achivement p {
+		width: 90%;
+	}
+
+	.skill1 p {
+		margin-left: 0;
+	}
+
+	.skill2 p {
+		margin-left: 0;
+	}
+
+	.ul {
+		width: 100%;
+	}
+
+	.ul2 {
+		width: 150%;
+	}
+
+	/* SECOND PAGE LEFT */
+	.edu > h2 {
+		margin-left: 52px;
+	}
+
+	div.edu {
+		margin-top: 59px;
+	}
+
+	div.sk {
+		margin-top: 148px;
+	}
+
+	.sk > h2 {
+		margin-left: 85px;
+	}
+
+	.lh {
+		width: 70%;
+	}
+
+	div.vul {
+		margin-top: 455px;
+	}
+
+	.vul > h2 {
+		margin-left: 28px;
+	}
+
+	div.ref {
+		margin-top: 60px;
+	}
+
+	.ref > h2 {
+		margin-left: 65px;
+	}
+
+	div.ach {
+		margin-top: 130px;
+	}
+
+	.ach > h2 {
+		margin-left: 35px;
+	}
+
+	/* SECOND PAGE RIGHT HR */
+	.education,
+	.sec > hr {
+		width: 90%;
+	}
+
+	.volunteer > hr {
+		width: 80%;
+	}
+
+	.achivement > hr {
+		width: 80%;
+	}
+
+	.top {
+		width: 91.2%;
+	}
+}
